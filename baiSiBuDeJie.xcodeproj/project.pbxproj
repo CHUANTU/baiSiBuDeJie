@@ -11,6 +11,7 @@
 		03A6743B1C8566D700E9DC7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A6743A1C8566D700E9DC7A /* AppDelegate.m */; };
 		03A6743E1C8566D700E9DC7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A6743D1C8566D700E9DC7A /* ViewController.m */; };
 		03A674431C8566D700E9DC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A674421C8566D700E9DC7A /* Assets.xcassets */; };
+		03FC0B481C86AB6D005D971A /* TCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FC0B471C86AB6D005D971A /* TCTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		03A6743D1C8566D700E9DC7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		03A674421C8566D700E9DC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03A674471C8566D700E9DC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03FC0B461C86AB6D005D971A /* TCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTabBarController.h; sourceTree = "<group>"; };
+		03FC0B471C86AB6D005D971A /* TCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 				03A6743A1C8566D700E9DC7A /* AppDelegate.m */,
 				03A6743C1C8566D700E9DC7A /* ViewController.h */,
 				03A6743D1C8566D700E9DC7A /* ViewController.m */,
+				03FC0B461C86AB6D005D971A /* TCTabBarController.h */,
+				03FC0B471C86AB6D005D971A /* TCTabBarController.m */,
 				03A674361C8566D700E9DC7A /* Supporting Files */,
 			);
 			path = baiSiBuDeJie;
@@ -99,6 +104,7 @@
 		03A6742B1C8566D700E9DC7A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TC;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = tuchuan;
 				TargetAttributes = {
@@ -143,6 +149,7 @@
 			files = (
 				03A6743E1C8566D700E9DC7A /* ViewController.m in Sources */,
 				03A6743B1C8566D700E9DC7A /* AppDelegate.m in Sources */,
+				03FC0B481C86AB6D005D971A /* TCTabBarController.m in Sources */,
 				03A674381C8566D700E9DC7A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +280,7 @@
 				03A6744C1C8566D700E9DC7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
