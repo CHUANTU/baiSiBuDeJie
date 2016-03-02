@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  TCNewViewController.h
 //  baiSiBuDeJie
 //
-//  Created by hello on 16/3/1.
+//  Created by hello on 16/3/2.
 //  Copyright © 2016年 tuchuan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TCNewViewController : UITabBarController
 
 @end
-

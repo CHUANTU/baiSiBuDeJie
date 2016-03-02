@@ -7,20 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03512ACE1C86D8600000A9F6 /* TCEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03512ACD1C86D8600000A9F6 /* TCEssenceViewController.m */; };
+		03512AD11C86D8870000A9F6 /* TCNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03512AD01C86D8870000A9F6 /* TCNewViewController.m */; };
+		03512AD41C86D8CD0000A9F6 /* TCFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03512AD31C86D8CD0000A9F6 /* TCFriendTrendsViewController.m */; };
+		03512AD71C86D8FE0000A9F6 /* TCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03512AD61C86D8FE0000A9F6 /* TCMeViewController.m */; };
+		03512ADA1C86DE120000A9F6 /* TCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 03512AD91C86DE120000A9F6 /* TCTabBar.m */; };
 		03A674381C8566D700E9DC7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A674371C8566D700E9DC7A /* main.m */; };
 		03A6743B1C8566D700E9DC7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A6743A1C8566D700E9DC7A /* AppDelegate.m */; };
-		03A6743E1C8566D700E9DC7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A6743D1C8566D700E9DC7A /* ViewController.m */; };
 		03A674431C8566D700E9DC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A674421C8566D700E9DC7A /* Assets.xcassets */; };
 		03FC0B481C86AB6D005D971A /* TCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FC0B471C86AB6D005D971A /* TCTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03512ACC1C86D8600000A9F6 /* TCEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCEssenceViewController.h; sourceTree = "<group>"; };
+		03512ACD1C86D8600000A9F6 /* TCEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCEssenceViewController.m; sourceTree = "<group>"; };
+		03512ACF1C86D8870000A9F6 /* TCNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCNewViewController.h; sourceTree = "<group>"; };
+		03512AD01C86D8870000A9F6 /* TCNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCNewViewController.m; sourceTree = "<group>"; };
+		03512AD21C86D8CD0000A9F6 /* TCFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCFriendTrendsViewController.h; sourceTree = "<group>"; };
+		03512AD31C86D8CD0000A9F6 /* TCFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCFriendTrendsViewController.m; sourceTree = "<group>"; };
+		03512AD51C86D8FE0000A9F6 /* TCMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMeViewController.h; sourceTree = "<group>"; };
+		03512AD61C86D8FE0000A9F6 /* TCMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMeViewController.m; sourceTree = "<group>"; };
+		03512AD81C86DE120000A9F6 /* TCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTabBar.h; sourceTree = "<group>"; };
+		03512AD91C86DE120000A9F6 /* TCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTabBar.m; sourceTree = "<group>"; };
 		03A674331C8566D700E9DC7A /* baiSiBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baiSiBuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A674371C8566D700E9DC7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03A674391C8566D700E9DC7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03A6743A1C8566D700E9DC7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		03A6743C1C8566D700E9DC7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		03A6743D1C8566D700E9DC7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		03A674421C8566D700E9DC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03A674471C8566D700E9DC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03FC0B461C86AB6D005D971A /* TCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTabBarController.h; sourceTree = "<group>"; };
@@ -59,10 +71,18 @@
 			children = (
 				03A674391C8566D700E9DC7A /* AppDelegate.h */,
 				03A6743A1C8566D700E9DC7A /* AppDelegate.m */,
-				03A6743C1C8566D700E9DC7A /* ViewController.h */,
-				03A6743D1C8566D700E9DC7A /* ViewController.m */,
 				03FC0B461C86AB6D005D971A /* TCTabBarController.h */,
 				03FC0B471C86AB6D005D971A /* TCTabBarController.m */,
+				03512ACC1C86D8600000A9F6 /* TCEssenceViewController.h */,
+				03512ACD1C86D8600000A9F6 /* TCEssenceViewController.m */,
+				03512ACF1C86D8870000A9F6 /* TCNewViewController.h */,
+				03512AD01C86D8870000A9F6 /* TCNewViewController.m */,
+				03512AD21C86D8CD0000A9F6 /* TCFriendTrendsViewController.h */,
+				03512AD31C86D8CD0000A9F6 /* TCFriendTrendsViewController.m */,
+				03512AD51C86D8FE0000A9F6 /* TCMeViewController.h */,
+				03512AD61C86D8FE0000A9F6 /* TCMeViewController.m */,
+				03512AD81C86DE120000A9F6 /* TCTabBar.h */,
+				03512AD91C86DE120000A9F6 /* TCTabBar.m */,
 				03A674361C8566D700E9DC7A /* Supporting Files */,
 			);
 			path = baiSiBuDeJie;
@@ -147,10 +167,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03A6743E1C8566D700E9DC7A /* ViewController.m in Sources */,
+				03512AD41C86D8CD0000A9F6 /* TCFriendTrendsViewController.m in Sources */,
+				03512AD11C86D8870000A9F6 /* TCNewViewController.m in Sources */,
 				03A6743B1C8566D700E9DC7A /* AppDelegate.m in Sources */,
 				03FC0B481C86AB6D005D971A /* TCTabBarController.m in Sources */,
+				03512ACE1C86D8600000A9F6 /* TCEssenceViewController.m in Sources */,
 				03A674381C8566D700E9DC7A /* main.m in Sources */,
+				03512AD71C86D8FE0000A9F6 /* TCMeViewController.m in Sources */,
+				03512ADA1C86DE120000A9F6 /* TCTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,11 @@
 //
 
 #import "TCTabBarController.h"
+#import "TCEssenceViewController.h"
+#import "TCNewViewController.h"
+#import "TCFriendTrendsViewController.h"
+#import "TCMeViewController.h"
+#import "TCTabBar.h"
 
 @interface TCTabBarController ()
 
@@ -18,55 +23,41 @@
     [super viewDidLoad];
     
     
-    
-    UIViewController *v1 = [[UIViewController alloc] init];
-    v1.tabBarItem.title = @"精华";
-    v1.tabBarItem.image = [UIImage imageNamed:@"tabBar_essence_icon"];
-    v1.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_essence_click_icon"];
-    
     NSMutableDictionary *attris = [NSMutableDictionary dictionary];
     attris[NSFontAttributeName] = [UIFont systemFontOfSize:12];
     attris[NSForegroundColorAttributeName] = [UIColor grayColor];
-    [v1.tabBarItem setTitleTextAttributes:attris forState:UIControlStateNormal];
     
     NSMutableDictionary *selectedAttris = [NSMutableDictionary dictionary];
     selectedAttris[NSFontAttributeName] = [UIFont systemFontOfSize:12];
     selectedAttris[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
-    [v1.tabBarItem setTitleTextAttributes:selectedAttris forState:UIControlStateSelected];
+    //拿到 uiatbBarItem 的外观对象 同一设置文子的属性
+    UITabBarItem *tabBarItem = [UITabBarItem appearance];
+    [tabBarItem setTitleTextAttributes:attris forState:UIControlStateNormal];
+    [tabBarItem setTitleTextAttributes:selectedAttris forState:UIControlStateSelected];
     
-    v1.view.backgroundColor =[UIColor redColor];
-    [self addChildViewController:v1];
     
+    [self setUpChildVc:[[TCEssenceViewController alloc] init] title:@"精华" image:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
     
-    UIViewController *v2 = [[UIViewController alloc] init];
-    v2.tabBarItem.image = [UIImage imageNamed:@"tabBar_new_icon"];
-    v2.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_new_click_icon"];
-    v2.tabBarItem.title = @"新帖";
-    [v2.tabBarItem setTitleTextAttributes:attris forState:UIControlStateNormal];
-    [v2.tabBarItem setTitleTextAttributes:selectedAttris forState:UIControlStateSelected];
-    v2.view.backgroundColor =[UIColor yellowColor];
+    [self setUpChildVc:[[TCNewViewController alloc] init] title:@"新帖" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
     
-    [self addChildViewController:v2];
+    [self setUpChildVc:[[TCFriendTrendsViewController alloc] init] title:@"关注" image:@"tabBar_me_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
     
-    UIViewController *v3 = [[UIViewController alloc] init];
-    v3.tabBarItem.image = [UIImage imageNamed:@"tabBar_friendTrends_icon"];
-    v3.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_friendTrends_click_icon"];
-    v3.tabBarItem.title = @"关注";
-    v3.view.backgroundColor =[UIColor grayColor];
-    [v3.tabBarItem setTitleTextAttributes:attris forState:UIControlStateNormal];
-    [v3.tabBarItem setTitleTextAttributes:selectedAttris forState:UIControlStateSelected];
-    [self addChildViewController:v3];
+    [self setUpChildVc:[[TCMeViewController alloc] init] title:@"我" image:@"tabBar_essence_icon" selectedImage:@"tabBar_me_click_icon"];
     
-    UIViewController *v4 = [[UIViewController alloc] init];
-    v4.tabBarItem.image = [UIImage imageNamed:@"tabBar_me_icon"];
-    v4.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_me_click_icon"];
-    v4.tabBarItem.title = @"我";
-    v4.view.backgroundColor =[UIColor blueColor];
-    [v4.tabBarItem setTitleTextAttributes:attris forState:UIControlStateNormal];
-    [v4.tabBarItem setTitleTextAttributes:selectedAttris forState:UIControlStateSelected];
-    [self addChildViewController:v4];
+    //self.tabBar = [[TCTabBar alloc] init];
+    [self setValue:[[TCTabBar alloc] init] forKeyPath:@"tabBar"];
+    
 }
-
+-(void)setUpChildVc:(UIViewController *)vc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage {
+    
+    
+    vc.tabBarItem.image = [UIImage imageNamed:image];
+    vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
+    vc.tabBarItem.title = title;
+    vc.view.backgroundColor =[UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0 blue:arc4random_uniform(100)/100.0 alpha:1.0];
+    [self addChildViewController:vc];
+    
+}
 
 
 @end
