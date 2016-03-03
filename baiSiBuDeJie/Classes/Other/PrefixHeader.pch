@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  baiSiBuDeJie
+//
+//  Created by hello on 16/3/2.
+//  Copyright © 2016年 tuchuan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+TCExtension.h"
+#import "UIBarButtonItem+TCExtension.h"
+
+#ifdef DEBUG
+
+#define TCLog(...) NSLog (__VA_ARGS__)
+
+#else
+
+#define TCLog(...)
+
+#endif
+
+#define TCLogFunc TCLog(@"%s",__func__)
+
+#endif
