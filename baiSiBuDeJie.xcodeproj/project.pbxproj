@@ -12,6 +12,7 @@
 		03512AD41C86D8CD0000A9F6 /* TCFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03512AD31C86D8CD0000A9F6 /* TCFriendTrendsViewController.m */; };
 		03512AD71C86D8FE0000A9F6 /* TCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03512AD61C86D8FE0000A9F6 /* TCMeViewController.m */; };
 		03512ADA1C86DE120000A9F6 /* TCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 03512AD91C86DE120000A9F6 /* TCTabBar.m */; };
+		03512ADD1C86F05C0000A9F6 /* UIView+TCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 03512ADC1C86F05C0000A9F6 /* UIView+TCExtension.m */; };
 		03A674381C8566D700E9DC7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A674371C8566D700E9DC7A /* main.m */; };
 		03A6743B1C8566D700E9DC7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A6743A1C8566D700E9DC7A /* AppDelegate.m */; };
 		03A674431C8566D700E9DC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A674421C8566D700E9DC7A /* Assets.xcassets */; };
@@ -29,6 +30,9 @@
 		03512AD61C86D8FE0000A9F6 /* TCMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMeViewController.m; sourceTree = "<group>"; };
 		03512AD81C86DE120000A9F6 /* TCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTabBar.h; sourceTree = "<group>"; };
 		03512AD91C86DE120000A9F6 /* TCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTabBar.m; sourceTree = "<group>"; };
+		03512ADB1C86F05C0000A9F6 /* UIView+TCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TCExtension.h"; sourceTree = "<group>"; };
+		03512ADC1C86F05C0000A9F6 /* UIView+TCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TCExtension.m"; sourceTree = "<group>"; };
+		03512ADE1C86F7520000A9F6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		03A674331C8566D700E9DC7A /* baiSiBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baiSiBuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A674371C8566D700E9DC7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03A674391C8566D700E9DC7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +87,9 @@
 				03512AD61C86D8FE0000A9F6 /* TCMeViewController.m */,
 				03512AD81C86DE120000A9F6 /* TCTabBar.h */,
 				03512AD91C86DE120000A9F6 /* TCTabBar.m */,
+				03512ADB1C86F05C0000A9F6 /* UIView+TCExtension.h */,
+				03512ADC1C86F05C0000A9F6 /* UIView+TCExtension.m */,
+				03512ADE1C86F7520000A9F6 /* PrefixHeader.pch */,
 				03A674361C8566D700E9DC7A /* Supporting Files */,
 			);
 			path = baiSiBuDeJie;
@@ -167,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03512ADD1C86F05C0000A9F6 /* UIView+TCExtension.m in Sources */,
 				03512AD41C86D8CD0000A9F6 /* TCFriendTrendsViewController.m in Sources */,
 				03512AD11C86D8870000A9F6 /* TCNewViewController.m in Sources */,
 				03A6743B1C8566D700E9DC7A /* AppDelegate.m in Sources */,
@@ -266,6 +274,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = baiSiBuDeJie/PrefixHeader.pch;
 				INFOPLIST_FILE = baiSiBuDeJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuchuan.baiSiBuDeJie;
@@ -278,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = baiSiBuDeJie/PrefixHeader.pch;
 				INFOPLIST_FILE = baiSiBuDeJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuchuan.baiSiBuDeJie;

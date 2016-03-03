@@ -32,22 +32,24 @@
 -(void)layoutSubviews {
     [super layoutSubviews];
     
-    self.publishBtn.bounds = CGRectMake(0, 0, self.publishBtn.currentBackgroundImage.size.width, self.publishBtn.currentBackgroundImage.size.height);
-    self.publishBtn.center = CGPointMake(self.frame.size.width * 0.5, self.frame.size.height * 0.5);
+
+    CGFloat width = self.width;
+    CGFloat height = self.height;
+    
+    self.publishBtn.width = self.publishBtn.currentBackgroundImage.size.width;
+    self.publishBtn.height = self.publishBtn.currentBackgroundImage.size.height;
+    
+    self.publishBtn.center = CGPointMake(width * 0.5, height * 0.5);
     
     CGFloat buttonY = 0;
-    CGFloat buttonW = self.frame.size.width / 5;
-    CGFloat buttonH = self.frame.size.height;
+    CGFloat buttonW = width / 5;
+    CGFloat buttonH = height;
     NSInteger index = 0;
     for (UIView *button in self.subviews) {
-        
 //        if (![button isKindOfClass:NSClassFromString(@"UITabBarButton")]) continue;
-        
         if (![button isKindOfClass:[UIControl class]] || button == self.publishBtn) continue;
-        
         //这个意思是如果 index > 1 那么就让 index+1 否则就直接用 index
         CGFloat buttonX = buttonW * ((index > 1)?(index + 1):index);
-        
         
         button.frame = CGRectMake(buttonX, buttonY, buttonW, buttonH);
         index ++;
