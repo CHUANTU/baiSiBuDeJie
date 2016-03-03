@@ -7,40 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03512ACE1C86D8600000A9F6 /* TCEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03512ACD1C86D8600000A9F6 /* TCEssenceViewController.m */; };
-		03512AD11C86D8870000A9F6 /* TCNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03512AD01C86D8870000A9F6 /* TCNewViewController.m */; };
-		03512AD41C86D8CD0000A9F6 /* TCFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03512AD31C86D8CD0000A9F6 /* TCFriendTrendsViewController.m */; };
-		03512AD71C86D8FE0000A9F6 /* TCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03512AD61C86D8FE0000A9F6 /* TCMeViewController.m */; };
-		03512ADA1C86DE120000A9F6 /* TCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 03512AD91C86DE120000A9F6 /* TCTabBar.m */; };
-		03512ADD1C86F05C0000A9F6 /* UIView+TCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 03512ADC1C86F05C0000A9F6 /* UIView+TCExtension.m */; };
-		03A674381C8566D700E9DC7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A674371C8566D700E9DC7A /* main.m */; };
-		03A6743B1C8566D700E9DC7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A6743A1C8566D700E9DC7A /* AppDelegate.m */; };
+		031EC8C11C88145F0084C7B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EC8AF1C88145F0084C7B5 /* AppDelegate.m */; };
+		031EC8C21C88145F0084C7B5 /* UIBarButtonItem+TCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EC8B21C88145F0084C7B5 /* UIBarButtonItem+TCExtension.m */; };
+		031EC8C31C88145F0084C7B5 /* UIView+TCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EC8B41C88145F0084C7B5 /* UIView+TCExtension.m */; };
+		031EC8C41C88145F0084C7B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EC8B51C88145F0084C7B5 /* main.m */; };
+		031EC8C51C88145F0084C7B5 /* TCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EC8B91C88145F0084C7B5 /* TCTabBar.m */; };
+		031EC8C61C88145F0084C7B5 /* TCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EC8BC1C88145F0084C7B5 /* TCTabBarController.m */; };
+		031EC8C91C8814B20084C7B5 /* TCEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EC8C81C8814B20084C7B5 /* TCEssenceViewController.m */; };
+		031EC8CC1C8814C20084C7B5 /* TCFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EC8CB1C8814C20084C7B5 /* TCFriendTrendsViewController.m */; };
+		031EC8CF1C8814CE0084C7B5 /* TCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EC8CE1C8814CE0084C7B5 /* TCMeViewController.m */; };
+		031EC8D21C8814D90084C7B5 /* TCNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EC8D11C8814D90084C7B5 /* TCNewViewController.m */; };
 		03A674431C8566D700E9DC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A674421C8566D700E9DC7A /* Assets.xcassets */; };
-		03FC0B481C86AB6D005D971A /* TCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FC0B471C86AB6D005D971A /* TCTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03512ACC1C86D8600000A9F6 /* TCEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCEssenceViewController.h; sourceTree = "<group>"; };
-		03512ACD1C86D8600000A9F6 /* TCEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCEssenceViewController.m; sourceTree = "<group>"; };
-		03512ACF1C86D8870000A9F6 /* TCNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCNewViewController.h; sourceTree = "<group>"; };
-		03512AD01C86D8870000A9F6 /* TCNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCNewViewController.m; sourceTree = "<group>"; };
-		03512AD21C86D8CD0000A9F6 /* TCFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCFriendTrendsViewController.h; sourceTree = "<group>"; };
-		03512AD31C86D8CD0000A9F6 /* TCFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCFriendTrendsViewController.m; sourceTree = "<group>"; };
-		03512AD51C86D8FE0000A9F6 /* TCMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMeViewController.h; sourceTree = "<group>"; };
-		03512AD61C86D8FE0000A9F6 /* TCMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMeViewController.m; sourceTree = "<group>"; };
-		03512AD81C86DE120000A9F6 /* TCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTabBar.h; sourceTree = "<group>"; };
-		03512AD91C86DE120000A9F6 /* TCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTabBar.m; sourceTree = "<group>"; };
-		03512ADB1C86F05C0000A9F6 /* UIView+TCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TCExtension.h"; sourceTree = "<group>"; };
-		03512ADC1C86F05C0000A9F6 /* UIView+TCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TCExtension.m"; sourceTree = "<group>"; };
-		03512ADE1C86F7520000A9F6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		031EC8AE1C88145F0084C7B5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		031EC8AF1C88145F0084C7B5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		031EC8B11C88145F0084C7B5 /* UIBarButtonItem+TCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TCExtension.h"; sourceTree = "<group>"; };
+		031EC8B21C88145F0084C7B5 /* UIBarButtonItem+TCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TCExtension.m"; sourceTree = "<group>"; };
+		031EC8B31C88145F0084C7B5 /* UIView+TCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TCExtension.h"; sourceTree = "<group>"; };
+		031EC8B41C88145F0084C7B5 /* UIView+TCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TCExtension.m"; sourceTree = "<group>"; };
+		031EC8B51C88145F0084C7B5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		031EC8B61C88145F0084C7B5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		031EC8B81C88145F0084C7B5 /* TCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTabBar.h; sourceTree = "<group>"; };
+		031EC8B91C88145F0084C7B5 /* TCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTabBar.m; sourceTree = "<group>"; };
+		031EC8BB1C88145F0084C7B5 /* TCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTabBarController.h; sourceTree = "<group>"; };
+		031EC8BC1C88145F0084C7B5 /* TCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTabBarController.m; sourceTree = "<group>"; };
+		031EC8C71C8814B20084C7B5 /* TCEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCEssenceViewController.h; sourceTree = "<group>"; };
+		031EC8C81C8814B20084C7B5 /* TCEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCEssenceViewController.m; sourceTree = "<group>"; };
+		031EC8CA1C8814C20084C7B5 /* TCFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCFriendTrendsViewController.h; sourceTree = "<group>"; };
+		031EC8CB1C8814C20084C7B5 /* TCFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCFriendTrendsViewController.m; sourceTree = "<group>"; };
+		031EC8CD1C8814CE0084C7B5 /* TCMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMeViewController.h; sourceTree = "<group>"; };
+		031EC8CE1C8814CE0084C7B5 /* TCMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMeViewController.m; sourceTree = "<group>"; };
+		031EC8D01C8814D90084C7B5 /* TCNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCNewViewController.h; sourceTree = "<group>"; };
+		031EC8D11C8814D90084C7B5 /* TCNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCNewViewController.m; sourceTree = "<group>"; };
 		03A674331C8566D700E9DC7A /* baiSiBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baiSiBuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		03A674371C8566D700E9DC7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		03A674391C8566D700E9DC7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		03A6743A1C8566D700E9DC7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		03A674421C8566D700E9DC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03A674471C8566D700E9DC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03FC0B461C86AB6D005D971A /* TCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTabBarController.h; sourceTree = "<group>"; };
-		03FC0B471C86AB6D005D971A /* TCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +57,193 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		031EC8941C88145F0084C7B5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				031EC8951C88145F0084C7B5 /* Essence */,
+				031EC89B1C88145F0084C7B5 /* FriendTrends */,
+				031EC8A11C88145F0084C7B5 /* Me */,
+				031EC8A71C88145F0084C7B5 /* New */,
+				031EC8AD1C88145F0084C7B5 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		031EC8951C88145F0084C7B5 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				031EC8961C88145F0084C7B5 /* Controller */,
+				031EC8971C88145F0084C7B5 /* Model */,
+				031EC89A1C88145F0084C7B5 /* VIew */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		031EC8961C88145F0084C7B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				031EC8C71C8814B20084C7B5 /* TCEssenceViewController.h */,
+				031EC8C81C8814B20084C7B5 /* TCEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		031EC8971C88145F0084C7B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		031EC89A1C88145F0084C7B5 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		031EC89B1C88145F0084C7B5 /* FriendTrends */ = {
+			isa = PBXGroup;
+			children = (
+				031EC89C1C88145F0084C7B5 /* Controller */,
+				031EC89D1C88145F0084C7B5 /* Model */,
+				031EC8A01C88145F0084C7B5 /* VIew */,
+			);
+			path = FriendTrends;
+			sourceTree = "<group>";
+		};
+		031EC89C1C88145F0084C7B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				031EC8CA1C8814C20084C7B5 /* TCFriendTrendsViewController.h */,
+				031EC8CB1C8814C20084C7B5 /* TCFriendTrendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		031EC89D1C88145F0084C7B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		031EC8A01C88145F0084C7B5 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		031EC8A11C88145F0084C7B5 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				031EC8A21C88145F0084C7B5 /* Controller */,
+				031EC8A31C88145F0084C7B5 /* Model */,
+				031EC8A61C88145F0084C7B5 /* VIew */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		031EC8A21C88145F0084C7B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				031EC8CD1C8814CE0084C7B5 /* TCMeViewController.h */,
+				031EC8CE1C8814CE0084C7B5 /* TCMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		031EC8A31C88145F0084C7B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		031EC8A61C88145F0084C7B5 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		031EC8A71C88145F0084C7B5 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				031EC8A81C88145F0084C7B5 /* Controller */,
+				031EC8A91C88145F0084C7B5 /* Model */,
+				031EC8AC1C88145F0084C7B5 /* VIew */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		031EC8A81C88145F0084C7B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				031EC8D01C8814D90084C7B5 /* TCNewViewController.h */,
+				031EC8D11C8814D90084C7B5 /* TCNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		031EC8A91C88145F0084C7B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		031EC8AC1C88145F0084C7B5 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		031EC8AD1C88145F0084C7B5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				031EC8AE1C88145F0084C7B5 /* AppDelegate.h */,
+				031EC8AF1C88145F0084C7B5 /* AppDelegate.m */,
+				031EC8B01C88145F0084C7B5 /* Category */,
+				031EC8B51C88145F0084C7B5 /* main.m */,
+				031EC8B61C88145F0084C7B5 /* PrefixHeader.pch */,
+				031EC8B71C88145F0084C7B5 /* View */,
+				031EC8BA1C88145F0084C7B5 /* ViewController */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		031EC8B01C88145F0084C7B5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				031EC8B11C88145F0084C7B5 /* UIBarButtonItem+TCExtension.h */,
+				031EC8B21C88145F0084C7B5 /* UIBarButtonItem+TCExtension.m */,
+				031EC8B31C88145F0084C7B5 /* UIView+TCExtension.h */,
+				031EC8B41C88145F0084C7B5 /* UIView+TCExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		031EC8B71C88145F0084C7B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				031EC8B81C88145F0084C7B5 /* TCTabBar.h */,
+				031EC8B91C88145F0084C7B5 /* TCTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		031EC8BA1C88145F0084C7B5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				031EC8BB1C88145F0084C7B5 /* TCTabBarController.h */,
+				031EC8BC1C88145F0084C7B5 /* TCTabBarController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		03A6742A1C8566D700E9DC7A = {
 			isa = PBXGroup;
 			children = (
@@ -73,23 +263,7 @@
 		03A674351C8566D700E9DC7A /* baiSiBuDeJie */ = {
 			isa = PBXGroup;
 			children = (
-				03A674391C8566D700E9DC7A /* AppDelegate.h */,
-				03A6743A1C8566D700E9DC7A /* AppDelegate.m */,
-				03FC0B461C86AB6D005D971A /* TCTabBarController.h */,
-				03FC0B471C86AB6D005D971A /* TCTabBarController.m */,
-				03512ACC1C86D8600000A9F6 /* TCEssenceViewController.h */,
-				03512ACD1C86D8600000A9F6 /* TCEssenceViewController.m */,
-				03512ACF1C86D8870000A9F6 /* TCNewViewController.h */,
-				03512AD01C86D8870000A9F6 /* TCNewViewController.m */,
-				03512AD21C86D8CD0000A9F6 /* TCFriendTrendsViewController.h */,
-				03512AD31C86D8CD0000A9F6 /* TCFriendTrendsViewController.m */,
-				03512AD51C86D8FE0000A9F6 /* TCMeViewController.h */,
-				03512AD61C86D8FE0000A9F6 /* TCMeViewController.m */,
-				03512AD81C86DE120000A9F6 /* TCTabBar.h */,
-				03512AD91C86DE120000A9F6 /* TCTabBar.m */,
-				03512ADB1C86F05C0000A9F6 /* UIView+TCExtension.h */,
-				03512ADC1C86F05C0000A9F6 /* UIView+TCExtension.m */,
-				03512ADE1C86F7520000A9F6 /* PrefixHeader.pch */,
+				031EC8941C88145F0084C7B5 /* Classes */,
 				03A674361C8566D700E9DC7A /* Supporting Files */,
 			);
 			path = baiSiBuDeJie;
@@ -98,7 +272,6 @@
 		03A674361C8566D700E9DC7A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				03A674371C8566D700E9DC7A /* main.m */,
 				03A674421C8566D700E9DC7A /* Assets.xcassets */,
 				03A674471C8566D700E9DC7A /* Info.plist */,
 			);
@@ -174,15 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03512ADD1C86F05C0000A9F6 /* UIView+TCExtension.m in Sources */,
-				03512AD41C86D8CD0000A9F6 /* TCFriendTrendsViewController.m in Sources */,
-				03512AD11C86D8870000A9F6 /* TCNewViewController.m in Sources */,
-				03A6743B1C8566D700E9DC7A /* AppDelegate.m in Sources */,
-				03FC0B481C86AB6D005D971A /* TCTabBarController.m in Sources */,
-				03512ACE1C86D8600000A9F6 /* TCEssenceViewController.m in Sources */,
-				03A674381C8566D700E9DC7A /* main.m in Sources */,
-				03512AD71C86D8FE0000A9F6 /* TCMeViewController.m in Sources */,
-				03512ADA1C86DE120000A9F6 /* TCTabBar.m in Sources */,
+				031EC8C21C88145F0084C7B5 /* UIBarButtonItem+TCExtension.m in Sources */,
+				031EC8C61C88145F0084C7B5 /* TCTabBarController.m in Sources */,
+				031EC8C91C8814B20084C7B5 /* TCEssenceViewController.m in Sources */,
+				031EC8C31C88145F0084C7B5 /* UIView+TCExtension.m in Sources */,
+				031EC8D21C8814D90084C7B5 /* TCNewViewController.m in Sources */,
+				031EC8C41C88145F0084C7B5 /* main.m in Sources */,
+				031EC8C11C88145F0084C7B5 /* AppDelegate.m in Sources */,
+				031EC8C51C88145F0084C7B5 /* TCTabBar.m in Sources */,
+				031EC8CC1C8814C20084C7B5 /* TCFriendTrendsViewController.m in Sources */,
+				031EC8CF1C8814CE0084C7B5 /* TCMeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				GCC_PREFIX_HEADER = baiSiBuDeJie/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = baiSiBuDeJie/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = baiSiBuDeJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuchuan.baiSiBuDeJie;
@@ -287,7 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				GCC_PREFIX_HEADER = baiSiBuDeJie/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = baiSiBuDeJie/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = baiSiBuDeJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuchuan.baiSiBuDeJie;
