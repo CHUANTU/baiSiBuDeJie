@@ -26,6 +26,9 @@
     tabButton.size = tabButton.currentBackgroundImage.size;
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:tabButton];
 }
+/**
+ *  点击事件
+ */
 -(void)tagClick {
     TCLogFunc;
 }

@@ -17,12 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
     
     
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" selectedImage:@"MainTagSubIconClick" addTarget:self action:@selector(tagClick)];
     
 }
+
 -(void)tagClick {
     TCLogFunc;
 }

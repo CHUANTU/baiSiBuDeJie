@@ -8,6 +8,10 @@
 
 #import "TCFriendTrendsViewController.h"
 
+#import <objc/message.h>
+
+
+
 @interface TCFriendTrendsViewController ()
 
 @end
@@ -21,10 +25,13 @@
     //self.navigationItem.title = @"";
     //self.tabBarItem.title = @"";
     
+    
     self.navigationItem.title = @"我的关注";
     
     
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" selectedImage:@"friendsRecommentIcon-click" addTarget:self action:@selector(friendsRecommentClick)];
+    
+    
     
     
 }
