@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="category" id="KGk-i7-Jjw" customClass="TCRecommendCategoryCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KVZ-zu-Axz" userLabel="下面的分割线">
+                        <rect key="frame" x="0.0" y="42" width="320" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="6sH-SX-NNf"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ozp-xK-fkg" userLabel="选中变红色的按钮">
+                        <rect key="frame" x="0.0" y="0.0" width="5" height="43"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="5" id="wCm-QR-F7r"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KVZ-zu-Axz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="21X-YG-en3"/>
+                    <constraint firstAttribute="trailing" secondItem="KVZ-zu-Axz" secondAttribute="trailing" id="921-jQ-fHJ"/>
+                    <constraint firstItem="Ozp-xK-fkg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="LhI-bv-bmA"/>
+                    <constraint firstItem="KVZ-zu-Axz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="gV2-UQ-BWb"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="KVZ-zu-Axz" secondAttribute="trailing" id="mhK-4Z-XPV"/>
+                    <constraint firstAttribute="bottom" secondItem="KVZ-zu-Axz" secondAttribute="bottom" id="qox-cV-o8V"/>
+                    <constraint firstAttribute="bottom" secondItem="Ozp-xK-fkg" secondAttribute="bottom" id="rLr-ph-gf5"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="KVZ-zu-Axz" secondAttribute="bottom" id="tfi-Jl-qlv"/>
+                    <constraint firstItem="Ozp-xK-fkg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="wkh-qQ-wX2"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="gV2-UQ-BWb"/>
+                        <exclude reference="mhK-4Z-XPV"/>
+                        <exclude reference="tfi-Jl-qlv"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="selectedView" destination="Ozp-xK-fkg" id="fV6-Wf-aKy"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

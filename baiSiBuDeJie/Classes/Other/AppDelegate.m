@@ -22,9 +22,6 @@
     
     
     
-    
-    
-    
     self.window.rootViewController = [[TCTabBarController alloc] init];
     [self.window makeKeyAndVisible];
     

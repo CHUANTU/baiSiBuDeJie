@@ -24,6 +24,10 @@
                                                 [UIBarButtonItem itemWithImage:@"mine-moon-icon" selectedImage:@"mine-moon-icon-click" addTarget:self action:@selector(moonButtonClick)]
                                                 ];
     
+    self.view.backgroundColor =TCGGlobalBg;
+    
+    TCLogFunc;
+    
 }
 
 -(void)settingButtonClick {

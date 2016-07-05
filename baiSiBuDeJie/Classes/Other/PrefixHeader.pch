@@ -13,6 +13,11 @@
 #import "UIBarButtonItem+TCExtension.h"
 
 
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+//#import "Masonry.h"
+
+
 #ifdef DEBUG
 
 #define TCLog(...) NSLog (__VA_ARGS__)
@@ -24,5 +29,10 @@
 #endif
 
 #define TCLogFunc TCLog(@"%s",__func__)
+#define TCRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.f green:(g)/255.f blue:(b)/255.f alpha:1.0]
+
+#define TCGGlobalBg TCRGBColor(223, 223, 223)
+
+
 
 #endif

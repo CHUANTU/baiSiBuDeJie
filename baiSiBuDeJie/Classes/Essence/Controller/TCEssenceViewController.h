@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TCEssenceViewController : UITabBarController
+@interface TCEssenceViewController : UIViewController
 
 @end

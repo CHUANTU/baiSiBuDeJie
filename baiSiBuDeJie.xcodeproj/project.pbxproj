@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030374F71CC5E000009C4E83 /* TCNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030374F61CC5E000009C4E83 /* TCNavgationController.m */; };
 		031EC8C11C88145F0084C7B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EC8AF1C88145F0084C7B5 /* AppDelegate.m */; };
 		031EC8C21C88145F0084C7B5 /* UIBarButtonItem+TCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EC8B21C88145F0084C7B5 /* UIBarButtonItem+TCExtension.m */; };
 		031EC8C31C88145F0084C7B5 /* UIView+TCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EC8B41C88145F0084C7B5 /* UIView+TCExtension.m */; };
@@ -18,10 +19,21 @@
 		031EC8CF1C8814CE0084C7B5 /* TCMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EC8CE1C8814CE0084C7B5 /* TCMeViewController.m */; };
 		031EC8D21C8814D90084C7B5 /* TCNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EC8D11C8814D90084C7B5 /* TCNewViewController.m */; };
 		03A674431C8566D700E9DC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A674421C8566D700E9DC7A /* Assets.xcassets */; };
-		3939871DCA6A3A4C72437B9C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F349A75B39E92D4E136D3404 /* libPods.a */; };
+		03BB1DB51CD0CB0C00057E22 /* TCFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BB1DB41CD0CB0C00057E22 /* TCFriendTrendsViewController.xib */; };
+		03BB1DBE1CD1B06A00057E22 /* TCRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BB1DBC1CD1B06A00057E22 /* TCRecommendViewController.m */; };
+		03BB1DBF1CD1B06A00057E22 /* TCRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BB1DBD1CD1B06A00057E22 /* TCRecommendViewController.xib */; };
+		03BB1DC41CD1DFBD00057E22 /* TCRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BB1DC31CD1DFBD00057E22 /* TCRecommendCategory.m */; };
+		03BB1DCD1CD1E86A00057E22 /* TCRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BB1DCB1CD1E86A00057E22 /* TCRecommendCategoryCell.m */; };
+		03BB1DCE1CD1E86A00057E22 /* TCRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BB1DCC1CD1E86A00057E22 /* TCRecommendCategoryCell.xib */; };
+		03BB1DD21CD3351F00057E22 /* TCRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BB1DD01CD3351F00057E22 /* TCRecommendUserCell.m */; };
+		03BB1DD31CD3351F00057E22 /* TCRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03BB1DD11CD3351F00057E22 /* TCRecommendUserCell.xib */; };
+		03BB1DD61CD33B2A00057E22 /* TCRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BB1DD51CD33B2A00057E22 /* TCRecommendUser.m */; };
+		256F9101C9E9A8CE514FE765 /* libPods-baiSiBuDeJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1B904650FEE0EB112832EC /* libPods-baiSiBuDeJie.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030374F51CC5E000009C4E83 /* TCNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCNavgationController.h; sourceTree = "<group>"; };
+		030374F61CC5E000009C4E83 /* TCNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCNavgationController.m; sourceTree = "<group>"; };
 		031EC8AE1C88145F0084C7B5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		031EC8AF1C88145F0084C7B5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		031EC8B11C88145F0084C7B5 /* UIBarButtonItem+TCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TCExtension.h"; sourceTree = "<group>"; };
@@ -45,9 +57,23 @@
 		03A674331C8566D700E9DC7A /* baiSiBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baiSiBuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A674421C8566D700E9DC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03A674471C8566D700E9DC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CCD52809D24A548B4A5D479 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		E657857D7EEE2DE03F0E65CA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		F349A75B39E92D4E136D3404 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BB1DB41CD0CB0C00057E22 /* TCFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		03BB1DBB1CD1B06A00057E22 /* TCRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRecommendViewController.h; sourceTree = "<group>"; };
+		03BB1DBC1CD1B06A00057E22 /* TCRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRecommendViewController.m; sourceTree = "<group>"; };
+		03BB1DBD1CD1B06A00057E22 /* TCRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCRecommendViewController.xib; sourceTree = "<group>"; };
+		03BB1DC21CD1DFBD00057E22 /* TCRecommendCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRecommendCategory.h; sourceTree = "<group>"; };
+		03BB1DC31CD1DFBD00057E22 /* TCRecommendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRecommendCategory.m; sourceTree = "<group>"; };
+		03BB1DCA1CD1E86A00057E22 /* TCRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRecommendCategoryCell.h; sourceTree = "<group>"; };
+		03BB1DCB1CD1E86A00057E22 /* TCRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRecommendCategoryCell.m; sourceTree = "<group>"; };
+		03BB1DCC1CD1E86A00057E22 /* TCRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCRecommendCategoryCell.xib; sourceTree = "<group>"; };
+		03BB1DCF1CD3351F00057E22 /* TCRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRecommendUserCell.h; sourceTree = "<group>"; };
+		03BB1DD01CD3351F00057E22 /* TCRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRecommendUserCell.m; sourceTree = "<group>"; };
+		03BB1DD11CD3351F00057E22 /* TCRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCRecommendUserCell.xib; sourceTree = "<group>"; };
+		03BB1DD41CD33B2A00057E22 /* TCRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRecommendUser.h; sourceTree = "<group>"; };
+		03BB1DD51CD33B2A00057E22 /* TCRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRecommendUser.m; sourceTree = "<group>"; };
+		3A1B904650FEE0EB112832EC /* libPods-baiSiBuDeJie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-baiSiBuDeJie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD661DDCBE533DE268330AA /* Pods-baiSiBuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baiSiBuDeJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-baiSiBuDeJie/Pods-baiSiBuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
+		F8240C22452C65CDD69232F5 /* Pods-baiSiBuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baiSiBuDeJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-baiSiBuDeJie/Pods-baiSiBuDeJie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3939871DCA6A3A4C72437B9C /* libPods.a in Frameworks */,
+				256F9101C9E9A8CE514FE765 /* libPods-baiSiBuDeJie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +148,10 @@
 			children = (
 				031EC8CA1C8814C20084C7B5 /* TCFriendTrendsViewController.h */,
 				031EC8CB1C8814C20084C7B5 /* TCFriendTrendsViewController.m */,
+				03BB1DB41CD0CB0C00057E22 /* TCFriendTrendsViewController.xib */,
+				03BB1DBB1CD1B06A00057E22 /* TCRecommendViewController.h */,
+				03BB1DBC1CD1B06A00057E22 /* TCRecommendViewController.m */,
+				03BB1DBD1CD1B06A00057E22 /* TCRecommendViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -129,6 +159,10 @@
 		031EC89D1C88145F0084C7B5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				03BB1DC21CD1DFBD00057E22 /* TCRecommendCategory.h */,
+				03BB1DC31CD1DFBD00057E22 /* TCRecommendCategory.m */,
+				03BB1DD41CD33B2A00057E22 /* TCRecommendUser.h */,
+				03BB1DD51CD33B2A00057E22 /* TCRecommendUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -136,6 +170,12 @@
 		031EC8A01C88145F0084C7B5 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
+				03BB1DCA1CD1E86A00057E22 /* TCRecommendCategoryCell.h */,
+				03BB1DCB1CD1E86A00057E22 /* TCRecommendCategoryCell.m */,
+				03BB1DCC1CD1E86A00057E22 /* TCRecommendCategoryCell.xib */,
+				03BB1DCF1CD3351F00057E22 /* TCRecommendUserCell.h */,
+				03BB1DD01CD3351F00057E22 /* TCRecommendUserCell.m */,
+				03BB1DD11CD3351F00057E22 /* TCRecommendUserCell.xib */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -245,6 +285,8 @@
 			children = (
 				031EC8BB1C88145F0084C7B5 /* TCTabBarController.h */,
 				031EC8BC1C88145F0084C7B5 /* TCTabBarController.m */,
+				030374F51CC5E000009C4E83 /* TCNavgationController.h */,
+				030374F61CC5E000009C4E83 /* TCNavgationController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -254,8 +296,8 @@
 			children = (
 				03A674351C8566D700E9DC7A /* baiSiBuDeJie */,
 				03A674341C8566D700E9DC7A /* Products */,
-				C40FA6CCB4A54845D8664CB9 /* Pods */,
-				EE6DA78E8076068107C1DF48 /* Frameworks */,
+				0E2029738DD11CFD65A7E9AE /* Pods */,
+				8478C238B08EC13FDFFAF7C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -285,19 +327,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C40FA6CCB4A54845D8664CB9 /* Pods */ = {
+		0E2029738DD11CFD65A7E9AE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E657857D7EEE2DE03F0E65CA /* Pods.debug.xcconfig */,
-				5CCD52809D24A548B4A5D479 /* Pods.release.xcconfig */,
+				DFD661DDCBE533DE268330AA /* Pods-baiSiBuDeJie.debug.xcconfig */,
+				F8240C22452C65CDD69232F5 /* Pods-baiSiBuDeJie.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		EE6DA78E8076068107C1DF48 /* Frameworks */ = {
+		8478C238B08EC13FDFFAF7C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F349A75B39E92D4E136D3404 /* libPods.a */,
+				3A1B904650FEE0EB112832EC /* libPods-baiSiBuDeJie.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -309,12 +351,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03A6744A1C8566D700E9DC7A /* Build configuration list for PBXNativeTarget "baiSiBuDeJie" */;
 			buildPhases = (
-				E27BB9BD0E01CBA58FA8DE35 /* Check Pods Manifest.lock */,
+				B548E2816796F3036DEAF732 /* [CP] Check Pods Manifest.lock */,
 				03A6742F1C8566D700E9DC7A /* Sources */,
 				03A674301C8566D700E9DC7A /* Frameworks */,
 				03A674311C8566D700E9DC7A /* Resources */,
-				5A93313C80F3A0F42EB851DA /* Embed Pods Frameworks */,
-				CD32B6C2B6E624DC1CA04ED0 /* Copy Pods Resources */,
+				E5189F7391DD1D9C49FA360B /* [CP] Embed Pods Frameworks */,
+				90EDE657A56D95025CEDB16E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -337,6 +379,7 @@
 				TargetAttributes = {
 					03A674321C8566D700E9DC7A = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7GA8E785VQ;
 					};
 				};
 			};
@@ -363,56 +406,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03BB1DD31CD3351F00057E22 /* TCRecommendUserCell.xib in Resources */,
+				03BB1DB51CD0CB0C00057E22 /* TCFriendTrendsViewController.xib in Resources */,
+				03BB1DBF1CD1B06A00057E22 /* TCRecommendViewController.xib in Resources */,
 				03A674431C8566D700E9DC7A /* Assets.xcassets in Resources */,
+				03BB1DCE1CD1E86A00057E22 /* TCRecommendCategoryCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5A93313C80F3A0F42EB851DA /* Embed Pods Frameworks */ = {
+		90EDE657A56D95025CEDB16E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-baiSiBuDeJie/Pods-baiSiBuDeJie-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CD32B6C2B6E624DC1CA04ED0 /* Copy Pods Resources */ = {
+		B548E2816796F3036DEAF732 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E27BB9BD0E01CBA58FA8DE35 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5189F7391DD1D9C49FA360B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-baiSiBuDeJie/Pods-baiSiBuDeJie-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -422,16 +469,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03BB1DD21CD3351F00057E22 /* TCRecommendUserCell.m in Sources */,
 				031EC8C21C88145F0084C7B5 /* UIBarButtonItem+TCExtension.m in Sources */,
 				031EC8C61C88145F0084C7B5 /* TCTabBarController.m in Sources */,
+				03BB1DBE1CD1B06A00057E22 /* TCRecommendViewController.m in Sources */,
 				031EC8C91C8814B20084C7B5 /* TCEssenceViewController.m in Sources */,
+				03BB1DD61CD33B2A00057E22 /* TCRecommendUser.m in Sources */,
+				03BB1DCD1CD1E86A00057E22 /* TCRecommendCategoryCell.m in Sources */,
 				031EC8C31C88145F0084C7B5 /* UIView+TCExtension.m in Sources */,
 				031EC8D21C8814D90084C7B5 /* TCNewViewController.m in Sources */,
 				031EC8C41C88145F0084C7B5 /* main.m in Sources */,
 				031EC8C11C88145F0084C7B5 /* AppDelegate.m in Sources */,
 				031EC8C51C88145F0084C7B5 /* TCTabBar.m in Sources */,
 				031EC8CC1C8814C20084C7B5 /* TCFriendTrendsViewController.m in Sources */,
+				030374F71CC5E000009C4E83 /* TCNavgationController.m in Sources */,
 				031EC8CF1C8814CE0084C7B5 /* TCMeViewController.m in Sources */,
+				03BB1DC41CD1DFBD00057E22 /* TCRecommendCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,29 +573,37 @@
 		};
 		03A6744B1C8566D700E9DC7A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E657857D7EEE2DE03F0E65CA /* Pods.debug.xcconfig */;
+			baseConfigurationReference = DFD661DDCBE533DE268330AA /* Pods-baiSiBuDeJie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = baiSiBuDeJie/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = baiSiBuDeJie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuchuan.baiSiBuDeJie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		03A6744C1C8566D700E9DC7A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CCD52809D24A548B4A5D479 /* Pods.release.xcconfig */;
+			baseConfigurationReference = F8240C22452C65CDD69232F5 /* Pods-baiSiBuDeJie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = baiSiBuDeJie/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = baiSiBuDeJie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuchuan.baiSiBuDeJie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

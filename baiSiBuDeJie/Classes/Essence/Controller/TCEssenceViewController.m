@@ -8,6 +8,8 @@
 
 #import "TCEssenceViewController.h"
 
+#import "AFNetworking.h"
+
 @interface TCEssenceViewController ()
 
 @end
@@ -20,13 +22,27 @@
     
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
     
-    
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" selectedImage:@"MainTagSubIconClick" addTarget:self action:@selector(tagClick)];
     
+    self.view.backgroundColor =TCGGlobalBg;
+    
+    
+    
+    
+    
+    
+
+    
+    TCLogFunc;
 }
 
 -(void)tagClick {
     TCLogFunc;
+    
+    UIViewController *v = [[UIViewController alloc] init];
+    v.view.backgroundColor = [UIColor whiteColor];
+    //v.view.backgroundColor = [UIColor colorWithRed:100/255.f green:100/255.f blue:100/255.f alpha:1];
+    [self.navigationController pushViewController:v animated:YES];
 }
 
 

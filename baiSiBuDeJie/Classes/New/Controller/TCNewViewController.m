@@ -19,12 +19,14 @@
     
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
     
-    UIButton *tabButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [tabButton setBackgroundImage:[UIImage imageNamed:@"MainTagSubIcon"] forState:UIControlStateNormal];
-    [tabButton setBackgroundImage:[UIImage imageNamed:@"MainTagSubIconClick"] forState:UIControlStateHighlighted];
-    [tabButton addTarget:self action:@selector(tagClick) forControlEvents:UIControlEventTouchUpInside];
-    tabButton.size = tabButton.currentBackgroundImage.size;
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:tabButton];
+    
+    
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" selectedImage:@"MainTagSubIconClick" addTarget:self action:@selector(tagClick)];
+    
+    self.view.backgroundColor =TCGGlobalBg;
+    
+    
+    TCLogFunc;
 }
 /**
  *  点击事件

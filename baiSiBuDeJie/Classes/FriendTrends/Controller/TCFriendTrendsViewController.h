@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TCFriendTrendsViewController : UITabBarController
+@interface TCFriendTrendsViewController : UIViewController
 
 @end

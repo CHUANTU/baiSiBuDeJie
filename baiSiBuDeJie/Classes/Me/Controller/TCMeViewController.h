@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TCMeViewController : UITabBarController
+@interface TCMeViewController : UIViewController
 
 @end

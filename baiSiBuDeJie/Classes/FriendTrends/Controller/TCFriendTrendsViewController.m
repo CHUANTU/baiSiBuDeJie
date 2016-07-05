@@ -10,6 +10,7 @@
 
 #import <objc/message.h>
 
+#import "TCRecommendViewController.h"
 
 
 @interface TCFriendTrendsViewController ()
@@ -31,12 +32,25 @@
     
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" selectedImage:@"friendsRecommentIcon-click" addTarget:self action:@selector(friendsRecommentClick)];
     
+    self.view.backgroundColor =TCGGlobalBg;
+    
+    TCLogFunc;
+    
+    
     
     
     
 }
+-(void)btn {
+    TCLogFunc;
+}
+
+
 -(void)friendsRecommentClick {
     TCLogFunc;
+    TCRecommendViewController *vc = [[TCRecommendViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 
